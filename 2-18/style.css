@@ -1,5 +1,10 @@
-:not(form){
+*:not(.i){
     background-color: gray;
     color: white;
+}
+*{
     text-align: center;
 }
+.title{
+    border-bottom: 3px solid white;
+ }
