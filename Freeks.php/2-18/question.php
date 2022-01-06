@@ -23,6 +23,7 @@ shuffle($question3); //配列の中身をシャッフル
 
 <!--フォームの作成 通信はPOST通信で-->
 <form method="POST" action="answer.php">
+
    <h2>①ネットワークのポート番号は何番？</h2>
    <!--③ 問題のradioボタンを「foreach」を使って作成する-->
    <?php foreach($question1 as $value){ ?>
@@ -47,10 +48,8 @@ shuffle($question3); //配列の中身をシャッフル
    <?php } ?>
    <input type="hidden" name="answer3" value="<?php echo $value; ?>">
    <br>
-   
    <input type="hidden" name="name" value="<?php echo $name; ?>">
    <!--フォーム内に隠しで送る-->
-
-   <input class="i" type="submit" value="回答する">
+   <input class="i" id="bottun" type="submit" value="回答する">
 </form>
 <!--問題の正解の変数と名前の変数を[answer.php]に送る-->
