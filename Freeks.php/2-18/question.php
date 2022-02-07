@@ -46,7 +46,7 @@ shuffle($question3); //配列の中身をシャッフル
    <input type="radio" name="question3" value="<?php echo $value; ?>"> 
    <?php echo $value; ?>
    <?php } ?>
-   <input type="hidden" name="answer3" value="<?php echo $value; ?>">
+   <input type="hidden" name="answer3" value="<?php echo $answer3; ?>">
    <br>
    <input type="hidden" name="name" value="<?php echo $name; ?>">
    <!--フォーム内に隠しで送る-->

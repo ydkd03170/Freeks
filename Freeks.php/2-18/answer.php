@@ -14,46 +14,25 @@ $question3 = $_POST['question3'];
 $answer3 = $_POST['answer3'];
 
 //選択した回答と正解が一致していれば「正解！」、一致していなければ「残念・・・」と出力される処理を組んだ関数を作成する
-function check($question,$answer,$result){
+function check($question,$answer){
 	if($question == $answer){
-		$result = "正解！";
+		echo $result = "正解！";
 	}else{
-		$result = "残念･･･";
+		echo $result = "残念･･･";
 	}
 }
-
-check($question1,$answer1,$result1);
-check($question2,$answer2,$result2);
-check($question3,$answer3,$result3);
-
-/*if($question1 == $answer1){
-	$result1 = "正解！";
-}else{
-	$result1 = "残念･･･";
-}
-
-if($question2 == $answer2){
-	$result2 = "正解！";
-}else{
-	$result2 = "残念･･･";
-}
-
-if($question3 == $answer3){
-	$result3 = "正解！";
-}else{
-	$result3 = "残念･･･";
-}*/
 ?>
+
 <p><?php echo $name;?>さんの結果は・・・？</p>
 
 <p>①の答え</p>
 <!--作成した関数を呼び出して結果を表示-->
-<?php echo $result1 ?>
+<?php check($question1,$answer1); ?>
 
 <p>②の答え</p>
 <!--作成した関数を呼び出して結果を表示-->
-<?php echo $result2 ?>
+<?php check($question2,$answer2); ?>
 
 <p>③の答え</p>
 <!--作成した関数を呼び出して結果を表示-->
-<?php echo $result3 ?>
+<?php check($question3,$answer3); ?>
