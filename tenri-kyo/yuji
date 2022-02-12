@@ -1,0 +1,52 @@
+.header-guide{
+    background-image: url("https://kodomo-ojibagaeri.com/wp-content/uploads/pool-320x213.jpg");
+    background-repeat: no-repeat;
+    background-size: 1000px;;
+    background-size: cover;
+    height: 500px;
+    width: 1000px;
+} 
+.header-guide h1 {
+    color: white;
+    text-align: center;
+    font-size: 90px;
+}
+.header-event{
+    background-image: url("https://kodomo-ojibagaeri.com/wp-content/uploads/pool-320x213.jpg");
+    background-repeat: no-repeat;
+    background-size: 1000px;;
+    background-size: cover;
+    height: 500px;
+    width: 1000px;
+} 
+.header-event h1 {
+    color: white;
+    text-align: center;
+    font-size: 90px;
+}
+.header-meeting{
+    background-image: url("https://kodomo-ojibagaeri.com/wp-content/uploads/pool-320x213.jpg");
+    background-repeat: no-repeat;
+    background-size: 1000px;;
+    background-size: cover;
+    height: 500px;
+    width: 1000px;
+} 
+.header-meeting h1 {
+    color: white;
+    text-align: center;
+    font-size: 90px;
+}
+.header-contact{
+    background-image: url("https://kodomo-ojibagaeri.com/wp-content/uploads/pool-320x213.jpg");
+    background-repeat: no-repeat;
+    background-size: 1000px;;
+    background-size: cover;
+    height: 500px;
+    width: 1000px;
+} 
+.header-contact h1 {
+    color: white;
+    text-align: center;
+    font-size: 90px;
+}
