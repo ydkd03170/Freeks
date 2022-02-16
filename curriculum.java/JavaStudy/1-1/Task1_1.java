@@ -17,6 +17,7 @@ public class Task1_1 {
         String hogeString="テスト";
         // ③下記の処理について、何をしているのかコメントを記入してください
         // [ここへ記述]
+        /*浮動小数点型のdoubleという名前の変数を宣言し、値「0.2」で初期化*/ 
         double hogeDouble = 0.2;
 
         // ④変数 hogeInt を値「100」で上書き
@@ -27,6 +28,7 @@ public class Task1_1 {
         System.out.print(hogeInt);
         // ⑦下記の処理について、何をしているのかコメントを記入してください
         // [ここへ記述]
+        /*hogeString,hogeDoubleの値の出力と改行*/
         System.out.println(hogeString);
 
         // ⑧変数 hogeDouble の値を表示
